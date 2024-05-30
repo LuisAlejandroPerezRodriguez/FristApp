@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LuisApp"
         tools:targetApi="31">
         <activity
+            android:name=".firstApp.ResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".firstApp.MainActivity"
             android:exported="true">
             <intent-filter>
